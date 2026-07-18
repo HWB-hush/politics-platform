@@ -1,0 +1,18 @@
+{
+  "name": "politics-platform-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "dev": "node --watch src/dev.js",
+    "start": "node src/index.js",
+    "sync:realtime": "node src/scripts/runRealtimeSync.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.22.2",
+    "mysql2": "^3.22.1"
+  }
+}
